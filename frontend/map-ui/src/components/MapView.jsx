@@ -33,7 +33,7 @@ export default function MapView() {
   useEffect(() => {
     const getPath = async () => {
       try {
-        const response = await axios.post("http://localhost:3001/shared-route", {
+        const response = await axios.post("http://localhost:3000/shared-route", {
           driverFrom: "Nehru Colony, Dehradun",
           driverTo: "ISBT Dehradun",
           passengerFrom: "Race Course, Dehradun",
