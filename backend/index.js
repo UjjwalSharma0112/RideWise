@@ -1,16 +1,19 @@
 // Backend (Node.js/Express with real OSM graph + NLP-based geocoding)
 import express from 'express';
 import cors from 'cors';
-import geocode from "./geocode.js";
-import { extractFromTo } from './utils.js';
-import PathFinder from './pathFinder.js';
-import { addUser,getWaitingUser } from './user.js';
+import geocode from "./utils/geocode.js";
+import { extractFromTo } from './utils/utils.js';
+import PathFinder from './utils/pathFinder.js';
+
+import driverRouter from './routes/driver.js'
+import passengerRouter from './routes/passenger.js'
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-
+app.use('/driver',driverRouter);
+app.use('/passenger',passengerRouter);
 // const extracted={from:"Nehru Colony",to:"Paltan Bazaar"};
 // const myFunc = async (extracted) => {
 //   console.log("📍 Geocoding FROM:", extracted.from);

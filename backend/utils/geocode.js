@@ -1,8 +1,8 @@
 import fetch from "node-fetch";
 import fs from "fs";
 import path from "path";
-import { config } from "dotenv";
-config();
+import { configDotenv } from "dotenv";
+configDotenv()
 const OPENCAGE_API_KEY = process.env.OPENCAGE_API_KEY; // 🔑 Replace this!
 const CACHE_FILE = path.join("./", "geocode-cache.json");
 
