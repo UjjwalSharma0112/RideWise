@@ -32,5 +32,6 @@
 
 ---
 ## System Architexture
-![image](https://github.com/user-attachments/assets/68d1a526-e410-488d-ba3f-acf0fac487fe)
-![image](https://github.com/user-attachments/assets/8d564d97-53ef-4a17-98c5-162552c469d1)
+![Screenshot 2025-05-19 114652](https://github.com/user-attachments/assets/67eb5cba-5183-4807-ae2b-aba884be7265)
+![Screenshot 2025-05-19 114703](https://github.com/user-attachments/assets/7d8efb09-a0bd-4401-81e5-3c045b333ff6)
+
